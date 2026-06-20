@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>أوركي جريل · Ürki Grill، مطبخ تركي عثماني في المدينة المنورة</title>
+<meta name="description" content="أوركي جريل، نكهة تركية عثمانية أصيلة في المدينة المنورة. كباب وأضنة، مشاوي مشكّلة، بيدا ولحم بعجين، وحلويات تركية. احجز طاولتك أو اطلب الآن." />
+<meta name="theme-color" content="#073034" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant.restaurant" />
+<meta property="og:locale" content="ar_SA" />
+<meta property="og:site_name" content="أوركي جريل · Ürki Grill" />
+<meta property="og:title" content="أوركي جريل، مطبخ تركي عثماني في المدينة المنورة" />
+<meta property="og:description" content="كباب وأضنة، مشاوي مشكّلة، بيدا ولحم بعجين، وحلويات تركية. احجز طاولتك في أوركي جريل." />
+<meta property="og:image" content="https://az212z.github.io/urki-grill/assets/img/ug-6.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="أوركي جريل، مطبخ تركي عثماني في المدينة المنورة" />
+<meta name="twitter:description" content="نكهة تركية عثمانية أصيلة. احجز طاولتك أو اطلب الآن." />
+<meta name="twitter:image" content="https://az212z.github.io/urki-grill/assets/img/ug-6.jpg" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Reem+Kufi:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "أوركي جريل · Ürki Grill",
+  "image": "https://az212z.github.io/urki-grill/assets/img/ug-6.jpg",
+  "servesCuisine": ["Turkish", "Ottoman", "Grill", "Kebab"],
+  "priceRange": "$$",
+  "telephone": "+966582023567",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "المدينة المنورة",
+    "addressCountry": "SA"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "reviewCount": "481",
+    "bestRating": "5"
+  },
+  "hasMenu": {
+    "@type": "Menu",
+    "hasMenuSection": [
+      { "@type": "MenuSection", "name": "كباب وأضنة" },
+      { "@type": "MenuSection", "name": "مشاوي مشكّلة" },
+      { "@type": "MenuSection", "name": "بيدا ولحم بعجين" },
+      { "@type": "MenuSection", "name": "شوربات" },
+      { "@type": "MenuSection", "name": "حلويات تركية" }
+    ]
+  },
+  "url": "https://az212z.github.io/urki-grill/"
+}
+</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader" aria-hidden="true">
+  <svg class="pre-mono" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+    <circle cx="50" cy="50" r="42" stroke-width="1.5" stroke-dasharray="264" stroke-dashoffset="264">
+      <animate attributeName="stroke-dashoffset" from="264" to="0" dur="1s" fill="freeze" />
+    </circle>
+    <path d="M50 24 v52 M34 36 q16 14 32 0 M34 64 q16 -14 32 0" stroke-width="2" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.1s" begin=".2s" fill="freeze" />
+    </path>
+  </svg>
+</div>
+
+<!-- Header -->
+<header class="site-header" id="header">
+  <div class="container nav">
+    <a href="#hero" class="brand" aria-label="أوركي جريل، الصفحة الرئيسية">
+      <svg class="brand-mono" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+        <circle cx="50" cy="50" r="44" stroke-width="2" />
+        <path d="M50 22 v56 M33 34 q17 16 34 0 M33 66 q17 -16 34 0" stroke-width="2.4" stroke-linecap="round" />
+        <circle cx="50" cy="50" r="4" fill="#C9A24B" stroke="none" />
+      </svg>
+      <span class="brand-text">
+        <span class="brand-ar">أوركي جريل</span>
+        <span class="brand-en">Ürki Grill</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="التنقل الرئيسي">
+      <a href="#menu" class="nav-link">القائمة</a>
+      <a href="#story" class="nav-link">قصتنا</a>
+      <a href="#gallery" class="nav-link">المعرض</a>
+      <a href="#location" class="nav-link">الموقع</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="tel:0582023567" class="btn btn--ghost" aria-label="اتصل بنا">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="lbl">اتصل</span>
+      </a>
+      <a href="#reserve" class="btn btn--accent">
+        <span class="sheen"></span>احجز طاولة
+      </a>
+    </div>
+
+    <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile full-screen menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="قائمة التنقل">
+  <button class="mm-close" id="mmClose" aria-label="إغلاق القائمة"></button>
+  <a href="#menu">القائمة</a>
+  <a href="#story">قصتنا</a>
+  <a href="#gallery">المعرض</a>
+  <a href="#reserve">احجز طاولة</a>
+  <a href="#location">الموقع</a>
+  <div class="mm-foot">
+    <a href="https://wa.me/966582023567">واتساب</a>
+    <a href="tel:0582023567">اتصال</a>
+  </div>
+</div>
+
+<main>
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-photo" style="background-image:url('assets/img/ug-6.jpg')"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+
+  <!-- Arabesque draw-on -->
+  <svg class="hero-arabesque" viewBox="0 0 200 200" aria-hidden="true">
+    <circle cx="100" cy="100" r="78" />
+    <circle cx="100" cy="100" r="56" />
+    <path d="M100 22 C140 60 140 140 100 178 C60 140 60 60 100 22 Z" />
+    <path d="M22 100 C60 60 140 60 178 100 C140 140 60 140 22 100 Z" />
+    <path d="M100 44 l12 24 26 4 -19 18 5 26 -24 -13 -24 13 5 -26 -19 -18 26 -4 Z" />
+  </svg>
+
+  <!-- Signature: rotating skewer with steam -->
+  <div class="skewer-wrap" aria-hidden="true">
+    <svg class="skewer" viewBox="0 0 80 220" fill="none">
+      <!-- skewer rod -->
+      <line x1="40" y1="6" x2="40" y2="214" stroke="#C9A24B" stroke-width="2.4" stroke-linecap="round"/>
+      <!-- meat chunks -->
+      <rect x="22" y="40" width="36" height="26" rx="9" fill="#8E2A1E"/>
+      <rect x="20" y="74" width="40" height="28" rx="10" fill="#A8203A"/>
+      <rect x="23" y="110" width="34" height="26" rx="9" fill="#7C2418"/>
+      <rect x="20" y="144" width="40" height="28" rx="10" fill="#A8203A"/>
+      <rect x="24" y="180" width="32" height="22" rx="8" fill="#8E2A1E"/>
+      <!-- highlight slice peeling -->
+      <path d="M58 86 q14 4 12 18" stroke="#E0C786" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <!-- steam -->
+      <g class="steam">
+        <path d="M30 30 q-8 -12 0 -22 q8 -10 0 -20"/>
+        <path d="M50 28 q8 -12 0 -22 q-8 -10 0 -20"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">مطبخ تركي عثماني · المدينة المنورة</span>
+      <h1>نار الفحم،<br /><span class="accentword">ونكهة عثمانية</span> أصيلة.</h1>
+      <p class="hero-sub">كباب وأضنة على الفحم، مشاوي مشكّلة، بيدا ولحم بعجين، وحلويات تركية، تُحضَّر بأيدٍ تتقن تراث المطبخ التركي في قلب المدينة المنورة.</p>
+      <div class="hero-cta">
+        <a href="#reserve" class="btn btn--gold"><span class="sheen"></span>احجز طاولة</a>
+        <a href="#menu" class="btn btn--ghost">تصفّح القائمة</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust bar -->
+<section class="trust" aria-label="تقييمنا وثقة ضيوفنا">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-num trust-rating"><span data-count="4.2">4.2</span><span class="star">★</span></div>
+        <div class="trust-stars" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="#C9A24B"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="#C9A24B"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="#C9A24B"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="#C9A24B"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+        </div>
+        <div class="trust-label">تقييم على خرائط قوقل (٤٨١ تقييم)</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num"><span data-count="481">481</span></div>
+        <div class="trust-label">ضيف شاركونا تجربتهم</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num">فحم</div>
+        <div class="trust-label">مشاوي على نار الفحم</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num">تركي</div>
+        <div class="trust-label">وصفات عثمانية أصيلة</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu -->
+<section class="section" id="menu">
+  <div class="container">
+    <div class="menu-head reveal">
+      <span class="section-kicker">من المطبخ</span>
+      <h2 class="section-title">أطباق توقّعها كل زائر</h2>
+      <p class="section-lead">مكوّنات طازجة وتتبيلة تركية على الفحم. الأسعار حسب القائمة داخل المطعم وعبر الطلب.</p>
+    </div>
+
+    <div class="dish-grid" data-stagger>
+      <article class="dish-card">
+        <div class="dish-media">
+          <img src="assets/img/ug-7.jpg" alt="طبق كباب لحم على الفحم مع خبز وسلطة في أوركي جريل" width="640" height="480" loading="lazy" decoding="async" />
+          <span class="dish-tag">الأكثر طلبًا</span>
+        </div>
+        <div class="dish-body">
+          <h3>كباب وأضنة على الفحم</h3>
+          <p>لحم مفروم متبّل بالطريقة التركية، يُشوى على الفحم ويُقدَّم مع الخبز التركي والسلطة.</p>
+          <span class="dish-price">حسب القائمة</span>
+        </div>
+      </article>
+
+      <article class="dish-card">
+        <div class="dish-media">
+          <img src="assets/img/ug-4.jpg" alt="دورم لحم وبيدا ولحم بعجين تركي في أوركي جريل" width="640" height="480" loading="lazy" decoding="async" />
+          <span class="dish-tag">تركي أصيل</span>
+        </div>
+        <div class="dish-body">
+          <h3>بيدا ولحم بعجين</h3>
+          <p>عجين تركي رقيق محشو باللحم والخضار، يُخبز في فرن الحطب حتى يصبح مقرمشًا.</p>
+          <span class="dish-price">حسب القائمة</span>
+        </div>
+      </article>
+
+      <article class="dish-card">
+        <div class="dish-media">
+          <img src="assets/img/ug-1.jpg" alt="صالة أوركي جريل وفرن الحطب ومنطقة المشاوي" width="640" height="480" loading="lazy" decoding="async" />
+          <span class="dish-tag">مشكّل</span>
+        </div>
+        <div class="dish-body">
+          <h3>مشاوي مشكّلة (مشكّل أوركي)</h3>
+          <p>تشكيلة من الكباب والأضنة والريش والشيش طاووق على صينية واحدة لمائدة الجمعة.</p>
+          <span class="dish-price">حسب القائمة</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="cat-row reveal" aria-label="أقسام القائمة">
+      <span class="cat-chip">كباب وأضنة</span>
+      <span class="cat-chip">مشاوي مشكّلة</span>
+      <span class="cat-chip">بيدا · لحم بعجين</span>
+      <span class="cat-chip">إسكندر</span>
+      <span class="cat-chip">شوربات</span>
+      <span class="cat-chip">حلويات تركية</span>
+    </div>
+  </div>
+</section>
+
+<!-- Story -->
+<section class="section section--ink" id="story">
+  <div class="container">
+    <div class="story-grid">
+      <figure class="story-figure reveal from-end">
+        <img src="assets/img/ug-8.jpg" alt="التصميم الداخلي لمطعم أوركي جريل بألوان دافئة وزخارف هندسية" width="640" height="800" loading="lazy" decoding="async" />
+      </figure>
+      <div class="story-body reveal from-start">
+        <span class="section-kicker">قصتنا</span>
+        <h2 class="section-title">من سفرة عثمانية إلى مائدتك</h2>
+        <p class="section-lead">بدأت فكرة أوركي جريل من شغف بالمطبخ التركي العريق: نار الفحم، التتبيلة المتوارثة، والخبز الطازج. أحضرنا هذه النكهة إلى المدينة المنورة لتكون وجهة العائلة والأصدقاء.</p>
+        <p class="story-quote">«المذاق الحقيقي يبدأ من النار، ويكتمل بالضيافة.»</p>
+        <div class="story-feats">
+          <div class="story-feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2s4 3 4 7a4 4 0 0 1-8 0c0-1 .5-2 1-3"/><path d="M9 21h6"/><path d="M12 17v4"/></svg>
+            <div><h4>على نار الفحم</h4><p>شواء تقليدي يمنح اللحم نكهة الدخان الأصيلة.</p></div>
+          </div>
+          <div class="story-feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11h18"/><path d="M5 11a7 7 0 0 1 14 0"/><path d="M4 15h16"/><path d="M7 19h10"/></svg>
+            <div><h4>خبز يُخبز عندنا</h4><p>بيدا وخبز تركي طازج من فرن الحطب يوميًا.</p></div>
+          </div>
+          <div class="story-feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h12"/></svg>
+            <div><h4>قائمة متنوعة</h4><p>من المشاوي إلى الحلويات التركية والمشروبات.</p></div>
+          </div>
+          <div class="story-feat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+            <div><h4>أجواء عائلية</h4><p>جلسات مريحة تناسب العائلة والمناسبات.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="menu-head reveal">
+      <span class="section-kicker">لمحات</span>
+      <h2 class="section-title">من داخل أوركي</h2>
+      <p class="section-lead">صور حقيقية من المطعم والأطباق. اضغط أي صورة لعرضها بحجم أكبر.</p>
+    </div>
+    <div class="gallery-grid" data-stagger>
+      <button class="gallery-item wide tall" data-full="assets/img/ug-1.jpg" aria-label="عرض صورة صالة المطعم">
+        <img src="assets/img/ug-1.jpg" alt="صالة أوركي جريل الداخلية مع فرن الحطب" width="640" height="480" loading="lazy" decoding="async" />
+      </button>
+      <button class="gallery-item" data-full="assets/img/ug-7.jpg" aria-label="عرض صورة طبق الكباب">
+        <img src="assets/img/ug-7.jpg" alt="طبق كباب لحم على الفحم" width="400" height="300" loading="lazy" decoding="async" />
+      </button>
+      <button class="gallery-item" data-full="assets/img/ug-4.jpg" aria-label="عرض صورة لحم بعجين">
+        <img src="assets/img/ug-4.jpg" alt="دورم لحم ولحم بعجين تركي" width="400" height="300" loading="lazy" decoding="async" />
+      </button>
+      <button class="gallery-item wide" data-full="assets/img/ug-8.jpg" aria-label="عرض صورة الديكور الداخلي">
+        <img src="assets/img/ug-8.jpg" alt="ديكور أوركي جريل بألوان دافئة وزخارف هندسية" width="640" height="320" loading="lazy" decoding="async" />
+      </button>
+      <button class="gallery-item" data-full="assets/img/ug-5.jpg" aria-label="عرض صورة واجهة المطعم نهارًا">
+        <img src="assets/img/ug-5.jpg" alt="واجهة مطعم أوركي جريل نهارًا" width="400" height="300" loading="lazy" decoding="async" />
+      </button>
+      <button class="gallery-item" data-full="assets/img/ug-6.jpg" aria-label="عرض صورة واجهة المطعم ليلًا">
+        <img src="assets/img/ug-6.jpg" alt="واجهة مطعم أوركي جريل المضاءة ليلًا" width="400" height="300" loading="lazy" decoding="async" />
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Reservation -->
+<section class="section" id="reserve" style="background:var(--cream-deep)">
+  <div class="container">
+    <div class="reserve-grid">
+      <aside class="reserve-aside reveal from-end">
+        <span class="section-kicker">احجز معنا</span>
+        <h2 class="section-title">احجز طاولتك في دقيقة</h2>
+        <p class="section-lead">أرسل تفاصيل حجزك وسنؤكّده عبر واتساب مباشرة. للطلبات والاستفسارات السريعة، تواصل معنا في أي وقت.</p>
+        <div class="reserve-points">
+          <div class="reserve-point">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            <div><b>حجز سريع</b><span>اختر اليوم وعدد الضيوف ونتولّى الباقي.</span></div>
+          </div>
+          <div class="reserve-point">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <div><b>تأكيد عبر واتساب</b><span>نراسلك لتأكيد التفاصيل والوقت.</span></div>
+          </div>
+          <div class="reserve-point">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+            <div><b>مناسبات وعزائم</b><span>نرحّب بحجوزات العائلات والمجموعات.</span></div>
+          </div>
+        </div>
+      </aside>
+
+      <form class="form-card reveal from-start" id="reserveForm" novalidate>
+        <p class="form-demo-note">هذا نموذج تجريبي: عند الإرسال يُفتح واتساب برسالة جاهزة بتفاصيل حجزك. لا تُحفظ بياناتك على أي خادم.</p>
+        <div class="field">
+          <label for="r-name">الاسم</label>
+          <input type="text" id="r-name" name="name" placeholder="اسمك الكريم" required />
+          <div class="field-error" data-for="r-name"></div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="r-phone">رقم الجوال</label>
+            <input type="tel" id="r-phone" name="phone" inputmode="tel" placeholder="05xxxxxxxx" required />
+            <div class="field-error" data-for="r-phone"></div>
+          </div>
+          <div class="field">
+            <label for="r-guests">عدد الضيوف</label>
+            <select id="r-guests" name="guests" required>
+              <option value="">اختر</option>
+              <option>شخصان</option>
+              <option>٣ - ٤</option>
+              <option>٥ - ٦</option>
+              <option>٧ فأكثر</option>
+            </select>
+            <div class="field-error" data-for="r-guests"></div>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="r-date">اليوم</label>
+            <input type="date" id="r-date" name="date" required />
+            <div class="field-error" data-for="r-date"></div>
+          </div>
+          <div class="field">
+            <label for="r-time">الوقت</label>
+            <input type="time" id="r-time" name="time" required />
+            <div class="field-error" data-for="r-time"></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="r-note">ملاحظات (اختياري)</label>
+          <textarea id="r-note" name="note" rows="2" placeholder="طلب خاص أو مناسبة..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--accent"><span class="sheen"></span>أرسل الحجز عبر واتساب</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Location -->
+<section class="section section--ink" id="location">
+  <div class="container">
+    <div class="loc-grid">
+      <div class="reveal from-end">
+        <span class="section-kicker">زورونا</span>
+        <h2 class="section-title">الموقع وساعات العمل</h2>
+        <div class="loc-card">
+          <div class="loc-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><h4>العنوان</h4><p>المدينة المنورة، المملكة العربية السعودية</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Urki%20Grill%20Madinah" target="_blank" rel="noopener">افتح في خرائط قوقل</a></div>
+          </div>
+          <div class="loc-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div><h4>ساعات العمل</h4><p>يوميًا، يُفضّل التأكيد عبر واتساب قبل الزيارة في المناسبات.</p></div>
+          </div>
+          <div class="loc-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><h4>للتواصل والطلب</h4>
+            <a href="tel:0582023567">0582023567</a>
+            <a href="https://wa.me/966582023567" target="_blank" rel="noopener">واتساب: 966582023567</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="loc-map reveal from-start">
+        <iframe title="موقع أوركي جريل على الخريطة" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Urki%20Grill%20Madinah&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="section final-cta">
+  <div class="container">
+    <span class="section-kicker" style="justify-content:center;color:var(--gold-soft)">المائدة بانتظارك</span>
+    <h2>نار الفحم جاهزة، تفضّل بزيارتنا</h2>
+    <p>احجز طاولتك الآن أو اطلب أصنافك المفضّلة، ودعنا نقدّم لك ضيافة تركية لا تُنسى في المدينة المنورة.</p>
+    <div class="hero-cta">
+      <a href="#reserve" class="btn btn--gold"><span class="sheen"></span>احجز طاولة</a>
+      <a href="https://wa.me/966582023567" class="btn btn--ghost" target="_blank" rel="noopener">اطلب عبر واتساب</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-ar" style="font-family:var(--font-display);font-weight:700;font-size:1.4rem">أوركي جريل</span>
+        <p>مطبخ تركي عثماني في المدينة المنورة: كباب ومشاوي على الفحم، بيدا ولحم بعجين، وحلويات تركية.</p>
+      </div>
+      <div class="footer-col">
+        <h4>تصفّح</h4>
+        <a href="#menu">القائمة</a>
+        <a href="#story">قصتنا</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#reserve">احجز طاولة</a>
+      </div>
+      <div class="footer-col">
+        <h4>تواصل</h4>
+        <a href="tel:0582023567">0582023567</a>
+        <a href="https://wa.me/966582023567" target="_blank" rel="noopener">واتساب</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Urki%20Grill%20Madinah" target="_blank" rel="noopener">الموقع على الخريطة</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> أوركي جريل · Ürki Grill. جميع الحقوق محفوظة.</span>
+      <span>تقييم ٤٫٢ على خرائط قوقل (٤٨١ تقييم)</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating FABs -->
+<div class="fabs">
+  <a class="fab fab--wa" href="https://wa.me/966582023567" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.2.2 2.1 3.2 5 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2z"/></svg>
+  </a>
+  <a class="fab fab--call" href="tel:0582023567" aria-label="اتصل بنا">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+  <a class="fab fab--map" href="https://www.google.com/maps/search/?api=1&query=Urki%20Grill%20Madinah" target="_blank" rel="noopener" aria-label="الموقع على الخريطة">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+  </a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة">
+  <button class="lb-close" id="lbClose" aria-label="إغلاق">✕</button>
+  <img id="lbImg" src="" alt="صورة من أوركي جريل بحجم أكبر" />
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
