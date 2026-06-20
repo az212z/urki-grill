@@ -62,3 +62,11 @@ assets/css/style.css · assets/js/main.js · assets/img/*.jpg
 tests/site.spec.ts · playwright.config.ts
 README.md · sales-message.md · DESIGN-QUALITY-REPORT.md
 ```
+
+---
+## 🚀 النشر والاختبار
+- **الرابط:** https://az212z.github.io/urki-grill/ · **المستودع:** https://github.com/az212z/urki-grill
+- **الموشن التوقيعي:** سيخ يدور+نقشة إزنيق + طبقة حياة محيطة (بارالاكس/جزيئات/توهّج) — transform/opacity 60fps، يحترم prefers-reduced-motion.
+- **Playwright:** ✅ status 200، صفر أخطاء console، قائمة جوال ملء الشاشة، لا تمرير أفقي، صفر صور مكسورة.
+- **Lighthouse:** الأداء 70 · الوصولية 95 · أفضل الممارسات 100 · SEO 100
+- **التقييم (قوقل):** 4.2 (481) · **المنطقة:** المدينة · **Backend:** غير مربوط. **الصور:** حقيقية من خرائط قوقل، **مُحسّنة احترافيًا** (سطوع/تباين/تشبّع/حدّة) ومُنقّاة بصريًا.
